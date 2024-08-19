@@ -3,7 +3,7 @@
 /*
  * Plugin Name:       ElasticPress on OpenSearch
  * Description:       Makes ElasticPress OpenSearch-compatible
- * Version:           1.0.0
+ * Version:           1.1.0
  * Author:            dxw
  * Author URI:        https://dxw.com/
  */
