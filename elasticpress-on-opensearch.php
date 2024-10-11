@@ -18,7 +18,7 @@ add_filter(
 add_filter(
 	'ep_elasticsearch_plugins',
 	function($info) {
-		if (!array_key_exists('ingest-attachment', $info)) {
+		if (is_array($info) && !array_key_exists('ingest-attachment', $info)) {
 			$info['ingest-attachment'] = '2.13.0';
 		}
 		return $info;
